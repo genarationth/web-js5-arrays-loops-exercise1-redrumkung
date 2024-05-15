@@ -7,11 +7,11 @@ const myAlphabetLength = (array) => {
 myAlphabetLength(myAlphabet);
 
 const Planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter"];
-Planets.forEach(function (members, index, test) {
-  console.log(members, index, test);
+Planets.forEach(function (members, index, array) {
+  console.log(index, members, array);
 });
 
 const myArr = [1, 2, "One", true];
-myArr.forEach(function (members, index) {
-  console.log(members, index);
+myArr.forEach(function (members, index, array) {
+  console.log(index, members, array);
 });
